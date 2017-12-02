@@ -26,7 +26,12 @@ div#pop-up {
 	border-radius: 8px 8px;
 }
 div#pop-up-title {
-	font-size: 15px;
+	font-size: 12px;
+	width:200px;
+	font-weight: bolder;
+}
+div#pop-up-subtitle {
+	font-size: 12px;
 	width:200px;
 	margin-bottom: 4px;
 	font-weight: bolder;
@@ -42,21 +47,35 @@ div#pop-img {
 	font-weight: bolder;
 }
 
+div#pop-up-link {
+	display: none;
+	position:absolute;
+	color: white;
+	font-size: 14px;
+	background: rgba(0,0,0,0.5);
+	padding: 5px 10px 5px 10px;
+	-moz-border-radius: 8px 8px;
+	border-radius: 8px 8px;
+}
 </style>
 
 
   </head>
   <body>
-    <div id="chart">
+  <div id="chart">
   <div id="pop-up">
             <div id="pop-up-title"></div>
+            <div id="pop-up-subtitle"></div>
             <div id="pop-up-content">
                 <table> <tr>
                     <td><div id="pop-img"></div></td>
                     <td><div id="pop-desc"></div></td>
                 </tr> </table>
             </div>
-        </div>
+  </div>
+  <div id="pop-up-link">
+  			<div id="pop-up-link-type"></div>
+  </div>
 </div>
     <script type="text/javascript" src="fisheye.js"></script>	
     <script type="text/javascript" src="fish2.js"></script>
