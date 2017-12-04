@@ -8,7 +8,7 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -19,7 +19,7 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/simple-sidebar.css" rel="stylesheet">
-    
+
 <style type="text/css">
 circle.node {
   stroke: #fff;
@@ -98,27 +98,29 @@ div#pop-up-link {
             <div class="container-fluid">
                 <h1>Network Visualization</h1>
                 <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Toggle Menu</a>
+                <input type="file" id="fileInput">
                 <br/>
+
               <!-- Chart area -->
-			  <div id="chart">
-				  <div id="pop-up">
-				            <div id="pop-up-title"></div>
-				            <div id="pop-up-subtitle"></div>
-				            <div id="pop-up-content">
-				                <table> <tr>
-				                    <td><div id="pop-img"></div></td>
-				                    <td><div id="pop-desc"></div></td>
-				                </tr> </table>
-				            </div>
-				  </div>
-				  <div id="pop-up-link">
-				  			<div id="pop-up-link-type"></div>
-				  </div>
-			  </div>
-			  
-			  <!--  
+  			  <div id="chart">
+  				  <div id="pop-up">
+  				            <div id="pop-up-title"></div>
+  				            <div id="pop-up-subtitle"></div>
+  				            <div id="pop-up-content">
+  				                <table> <tr>
+  				                    <td><div id="pop-img"></div></td>
+  				                    <td><div id="pop-desc"></div></td>
+  				                </tr> </table>
+  				            </div>
+  				  </div>
+  				  <div id="pop-up-link">
+  				  			<div id="pop-up-link-type"></div>
+  				  </div>
+  			  </div>
+
+			  <!--
 			  <h6>Contact Information</h6>
-			  <table> 
+			  <table>
 			  	<tr>
 		        		<td><h6>Adriana Meza Soria</h6></td>
 				    <td><a href="mailto:ameza@uci.edu">ameza@uci.edu</a></td>
@@ -128,12 +130,12 @@ div#pop-up-link {
 				    <td><a href="mailto:epaikari@uci.edu ">epaikari@uci.edu </a></td>
 			    </tr>
 			  </table>
-			  -->			  
+			  -->
             </div>
-            
+
         </div>
         <!-- /#page-content-wrapper -->
-        
+
 
     </div>
     <!-- /#wrapper -->
@@ -144,10 +146,9 @@ div#pop-up-link {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
     });
-    </script> 
+    </script>
     <!-- D3.js Chart Script -->
-    <script type="text/javascript" src="fisheye.js"></script>	
-    <script type="text/javascript" src="fish2.js"></script>  
+    <script type="text/javascript" src="fisheye.js"></script>
+    <script type="text/javascript" src="fish2.js"></script>
   </body>
 </html>
-
